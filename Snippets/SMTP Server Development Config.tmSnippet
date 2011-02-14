@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>config.action_mailer.delivery_method = :smtp
+ActionMailer::Base.smtp_settings = {
+ :address =&gt; "localhost",
+ :port =&gt; 1025,
+ :domain =&gt; "$1"
+}$0
+</string>
+	<key>name</key>
+	<string>SMTP Server Development Config</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>smtp</string>
+	<key>uuid</key>
+	<string>AC171564-A37E-4FA8-A145-41E884D383BC</string>
+</dict>
+</plist>
