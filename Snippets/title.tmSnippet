@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;% title $1 %&gt;</string>
+	<string>&lt;% page_title "$1" %&gt;</string>
 	<key>name</key>
 	<string>title</string>
 	<key>scope</key>
